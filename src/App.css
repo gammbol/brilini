@@ -5,3 +5,11 @@
   font-family: "Inter", sans-serif;
   font-size: 18px;
 }
+
+.arrow-up-right::after {
+  content: "";
+  display: block;
+  width: 49px;
+  height: 49px;
+  background: url("./images/arrow-up-right.svg");
+}

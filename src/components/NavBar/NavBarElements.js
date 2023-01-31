@@ -37,6 +37,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   text-align: center;
   list-style: none;
+  height: 100%;
 `;
 
 export const NavItem = styled.div`
