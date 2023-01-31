@@ -27,16 +27,16 @@ const Hero = () => {
             <HeroHeadingItalic>We create</HeroHeadingItalic>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -500 }}
+            initial={{ opacity: 0, x: -900 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1.8 }}
+            transition={{ duration: 1.5 }}
           >
             <HeroHeading>interiors that one</HeroHeading>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: -500 }}
+            initial={{ opacity: 0, x: -1200 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 2 }}
+            transition={{ duration: 1.9 }}
           >
             <HeroHeadingMargin>wants to live in</HeroHeadingMargin>
           </motion.div>
@@ -44,7 +44,7 @@ const Hero = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1.9 }}
         >
           <HeroSubtitleContainer>
             <HeroSubtitle>

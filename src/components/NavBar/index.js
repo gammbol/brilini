@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { FaBars } from "react-icons/fa";
 import logo from "../../images/logo.svg";
 import {
+  MobileIcon,
   Nav,
   NavContainer,
   NavItem,
@@ -29,6 +31,9 @@ const NavBar = () => {
           animate={{ opacity: 1, x: 0, scale: 1 }}
           transition={{ duration: 1.5 }}
         >
+          <MobileIcon>
+            <FaBars />
+          </MobileIcon>
           <NavMenu>
             <NavItem>
               <NavLinks to="about">About</NavLinks>

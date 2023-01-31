@@ -19,6 +19,10 @@ export const NavContainer = styled.div`
   width: 100%;
   padding: 25px 24px;
   max-width: 1600px;
+
+  @media screen and (max-width: 425px) {
+    padding: 25px 15px;
+  }
 `;
 
 export const NavLogoContainer = styled(LinkR)`
@@ -38,6 +42,10 @@ export const NavMenu = styled.ul`
   text-align: center;
   list-style: none;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const NavItem = styled.div`
@@ -51,4 +59,17 @@ export const NavLinks = styled(LinkS)`
   text-decoration: none;
   padding: 0 1rem;
   cursor: pointer;
+`;
+
+export const MobileIcon = styled.div`
+  display: none;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+    transform: translate(0, 50%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #fff;
+  }
 `;
