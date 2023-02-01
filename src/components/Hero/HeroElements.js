@@ -33,6 +33,10 @@ export const HeroHeadingContainer = styled.h1`
   font-style: normal;
   margin-bottom: 5rem;
 
+  @media screen and (min-width: 2560px) {
+    font-size: 8rem;
+  }
+
   @media screen and (max-width: 1200px) {
     font-size: 4.5rem;
   }
